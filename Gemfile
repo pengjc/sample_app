@@ -4,6 +4,8 @@ ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
+# Password encryption
+gem 'bcrypt',         '3.1.11'
 # Bootstrap
 gem 'bootstrap-sass', '3.3.6'
 # Add assert_template
